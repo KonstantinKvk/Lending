@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Genos&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+html {
+  padding: 0;
+  margin: 0;
+  /* height: 100vh !important; */
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.message-search-list {
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  left: 0;
+  width: 100%;
+}
+
+#__next {
+  height: 100% !important;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/***************kvk style*************/
+
+
+.h-100-px {
+  height: calc(100% - 75px);
+}
+
+.h2-100-px {
+  height: calc(100% - 120px);
+}
+
+.h3-100-px {
+  height: calc(100% - 80px);
+}
+
+.fixed {
+  position: fixed;
+  bottom: 40px;
+  /* измените значение, если нужно */
+  right: 35px;
+  /* измените значение, если нужно */
+}
+
+/* .section {
+  scroll-margin-top: 13em !important;
+}
+
+.sectionSecond {
+  scroll-margin-top: 8em !important;
+} */

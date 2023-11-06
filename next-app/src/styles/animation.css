@@ -1,0 +1,258 @@
+/* animation logoNavbar */
+
+.animProjectImage {
+  animation-name: scroll-from-right;
+  animation-duration: 2s;
+  animation-delay: 0.1s;
+  animation-fill-mode: both;
+  opacity: 0;
+}
+
+.animLogo {
+  animation-name: scroll-from-left;
+  animation-duration: 2s;
+  animation-delay: 0.1s;
+  animation-fill-mode: both;
+  opacity: 0;
+}
+
+.showWordMainMenu {
+  animation-name: scroll-from-left;
+}
+
+.accordionBody {
+  animation-name: scroll-from-right;
+  animation-duration: 0.3s;
+  animation-delay: 0s;
+  animation-fill-mode: both;
+  opacity: 0;
+}
+
+@keyframes scroll-from-left {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes scroll-from-right {
+  0% {
+    transform: translateX(50%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.showServises {
+  animation-name: scroll-from-left-test;
+  animation-duration: 1s;
+  animation-delay: 1.6s;
+  animation-fill-mode: both;
+  animation-iteration-count: 1;
+  /* opacity: 0; */
+}
+
+.showServises2 {
+  animation-name: scroll-from-left-test;
+  animation-duration: 2.9s;
+  animation-delay: 3.5s;
+  animation-fill-mode: both;
+  animation-iteration-count: 1;
+  /* opacity: 0; */
+}
+
+.showServises3 {
+  animation-name: scroll-from-left-test;
+  animation-duration: 2.9s;
+  animation-delay: 5s;
+  animation-fill-mode: both;
+  animation-iteration-count: 1;
+  /* opacity: 0; */
+}
+
+.showServises4 {
+  animation-name: scroll-from-left-test;
+  animation-duration: 2.9s;
+  animation-delay: 6.5s;
+  animation-fill-mode: both;
+  animation-iteration-count: 1;
+  /* opacity: 0; */
+}
+
+.showServisesTest {
+  animation-name: scroll-from-left-test;
+  animation-duration: 2.9s;
+  animation-delay: 0s;
+  animation-fill-mode: both;
+  animation-iteration-count: 1;
+  /* opacity: 0; */
+}
+
+@keyframes scroll-from-left-test {
+  0% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+
+  50% {
+    transform: translateX(2%);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+
+@keyframes scroll-from-left-click {
+  0% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+
+  50% {
+    transform: translateX(5%);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+
+/*********************Blink,Swing****************/
+
+.blinkCardGallery {
+  animation-name: blink;
+  animation-duration: 0.5s;
+  animation-delay: 0.1s;
+  animation-fill-mode: both;
+  opacity: 0;
+}
+
+.blinkOption {
+  animation-name: blink;
+  animation-duration: 0.9s;
+  animation-delay: 0.3s;
+  animation-fill-mode: both;
+  opacity: 0;
+}
+
+.blinkOption2 {
+  animation-name: blink;
+  animation-duration: 0.9s;
+  animation-delay: 0.6s;
+  animation-fill-mode: both;
+  opacity: 0;
+}
+
+.blinkOption3 {
+  animation-name: blink;
+  animation-duration: 0.9s;
+  animation-delay: 0.9s;
+  animation-fill-mode: both;
+  opacity: 0;
+}
+
+.blinkOption4 {
+  animation-name: blink;
+  animation-duration: 0.9s;
+  animation-delay: 1.2s;
+  animation-fill-mode: both;
+  opacity: 0;
+}
+
+.showWordProject {
+  animation-name: blink;
+  animation-duration: 1.8s;
+  animation-delay: 0.3s;
+  animation-fill-mode: both;
+  opacity: 0;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes blinkTypeText {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.3;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes showText {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0.6;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes closeText {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.6;
+  }
+
+  100% {
+    opacity: 0.2;
+  }
+}
+
+@keyframes showBg {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes showTextService {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.6;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

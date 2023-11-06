@@ -1,0 +1,109 @@
+/*Шрифты */
+
+@font-face {
+    font-family: "Montserrat-SemiBold";
+    src: url("../fonts/Montserrat/Montserrat-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: "Montserrat-Light";
+    src: url("../fonts/Montserrat/Montserrat-Light.ttf");
+}
+
+.font-lato {
+    font-family: 'Lato', sans-serif;
+}
+
+/************************************/
+/*********ICONS**********************/
+.icon-up-style {
+    height: 50px !important;
+    width: 50px !important;
+    color: #6f1c1b65 !important;
+}
+
+.logo-style-teh {
+    width: 120px !important;
+}
+
+/************************************/
+
+/***********ОТСТУПЫ, РАЗМЕРЫ, ЦВЕТА И ТД**************/
+
+.ms10 {
+    margin-left: 10% !important;
+}
+
+.me10 {
+    margin-right: 10% !important;
+}
+
+.ms5 {
+    margin-left: 3.5% !important;
+}
+
+
+.offcanvas-end {
+    width: 50% !important;
+}
+
+.containerTeh {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/************************************/
+
+/*********Стили блока О НАС**********/
+
+.words-header {
+    font-family: 'Montserrat-SemiBold' !important;
+    font-size: 50px !important;
+    color: aliceblue;
+}
+
+/************************************/
+
+/*********Стили блока Технологии**********/
+
+.words-header-teh {
+    font-size: 30px !important;
+    color: #e0e0e0;
+    font-family: 'Disket-Mono-Regular', serif !important;
+}
+
+.words-footer-teh {
+    font-size: 28px !important;
+    color: #e0e0e0;
+    font-family: 'Disket-Mono-Regular', serif !important;
+}
+
+
+/************************************/
+
+.book-page {
+    perspective: 1000px;
+    position: relative;
+  }
+  .book-page .d-flex {
+    transform-style: preserve-3d;
+    transition: all 1s ease-in-out;
+  }
+  .book-page.open .d-flex {
+    transform: rotateX(-180deg);
+  }
+
+  .btn-nvg {
+    background-color: #f3f3f300 !important;
+    border-color: #2a292900 !important;
+    color: #3c3b3b !important;
+    font-weight: bold !important;
+    text-transform: uppercase !important;
+  }
+  .icon-up-style {
+    height: 50px !important;
+    width: 50px !important;
+    color: #1e1e1ed8 !important;
+  }
+  
